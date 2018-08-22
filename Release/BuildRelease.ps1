@@ -1,5 +1,5 @@
 # IMPORTANT: Make sure that the path to msbuild is correct!  
-$msbuild = "C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe"
+$msbuild = "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\msbuild.exe"
 if ((Test-Path $msbuild) -eq $false) {
     Write-Host "Cannot find msbuild at '$msbuild'."
     Break
